@@ -4,8 +4,7 @@ import "fmt"
 
 func main() {
 	number := 7
-	result := square(number)
-	fmt.Println(result)
+	fmt.Println(cube(number))
 }
 func square(n int) int {
 	return n * n
